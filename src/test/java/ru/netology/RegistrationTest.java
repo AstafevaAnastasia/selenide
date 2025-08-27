@@ -13,7 +13,6 @@ import static com.codeborne.selenide.Selenide.*;
 public class RegistrationTest {
     @BeforeEach
     void setup() {
-        Configuration.headless = true;
         open("http://localhost:9999");
     }
 
